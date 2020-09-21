@@ -16,7 +16,7 @@ int det(const int**M, unsigned const int x)
 	return d;
 }
 
-output(const int**M, unsigned const int x)
+void output(const int**M, unsigned const int x)
 {
 	int i, j;
 
@@ -51,7 +51,7 @@ int main()
 	{
 		for(j=0; j<x; j++)
 		{
-			scanf("%d", M[i][j]);
+			scanf("%d", &M[i][j]);
 		}
 	}
 
